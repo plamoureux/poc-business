@@ -1,12 +1,14 @@
-System.register([], function (_export) {
-  "use strict";
+System.register(['poc-business/business/business-list'], function (_export) {
+  'use strict';
 
-  var a;
+  var BusinessList;
   return {
-    setters: [],
+    setters: [function (_pocBusinessBusinessBusinessList) {
+      BusinessList = _pocBusinessBusinessBusinessList.BusinessList;
+    }],
     execute: function () {
-      a = 1002;
+      _export('BusinessList', BusinessList);
     }
   };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O01BQUksQ0FBQzs7OztBQUFELE9BQUMsR0FBRyxJQUFJIiwiZmlsZSI6InVua25vd24iLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgYSA9IDEwMDI7Il19
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7O3NEQUFRLFlBQVk7Ozs4QkFFWixZQUFZIiwiZmlsZSI6InVua25vd24iLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0J1c2luZXNzTGlzdH0gZnJvbSAncG9jLWJ1c2luZXNzL2J1c2luZXNzL2J1c2luZXNzLWxpc3QnO1xuXG5leHBvcnQge0J1c2luZXNzTGlzdH07Il19
