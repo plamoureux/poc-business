@@ -1,0 +1,19 @@
+{
+  "name": "poc-business",
+  "version": "1.0.0",
+  "description": "POC sur les dépendances entre les plug-ins",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/plamoureux/poc-business"
+  },
+  "jspm": {
+    "main": "index",
+    "format": "register",
+    "directories": {
+      "lib": "dist/system"
+    },
+    "dependencies": {
+      "lodash": "npm:lodash@^3.9.3"
+    }
+  }
+}
