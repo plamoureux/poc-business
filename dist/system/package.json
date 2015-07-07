@@ -4,7 +4,7 @@
   "description": "POC sur les dépendances entre les plug-ins",
   "repository": {
     "type": "git",
-    "url": "[REPOURL]"
+    "url": "http://github.com/plamoureux/poc-business"
   },
   "jspm": {
     "main": "index",
